@@ -1,14 +1,6 @@
 /*----------------------------------------------
   media query
-  --------------------------------------------*/
-/*@media only screen and (max-width: 320px) {
-  p {
-    font-size: .5em;
-  }
-  h1 {
-    font-size: 1em;
-  }
-}*/
+  --------------------------------------------
 
 /*----------------------------------------------
   web fonts
@@ -23,7 +15,6 @@
 	font-family: "MissionGothic-BlackItalic";
 	src: url('../fonts/Mission-Gothic-Black-Italic.otf');
 }
-
 
 /* -----------------------
    general
@@ -49,49 +40,51 @@ html {
 img {
 	border-top-left-radius: 5%;
 	border-top-right-radius: 5%;
-	max-width: 100%;
+	max-width: 270px;
 }
 
 /* -----------------------
    header 
    ----------------------- */
 
-/* -----------------------
-   navigation 	
-   ----------------------- */
-
-nav {
-	text-align: center;
+   h1 {
+    font-family: "MissionGothic-BlackItalic";
+    color: white;
+    font-size: 3.750em;
+    margin: 2.5% 0 0 5%;
+    text-shadow: -1px -1px 0 #000,
 }
 
-nav ul {
-	list-style: none;
-	padding: 0;
-}
+/* --------------
+  navigation
+  --------------- */ 
 
-nav li {
-  font: "MissionGothic-Light";
-	font-size: 2.188em; /* 35px */
-	font-weight: bold;
-	color: black;
-	display: inline-block; 
-	margin: auto;
-}
+  #info {
+    list-style: none;
+  }
+  #info li {
+    background-color: white;
+  }
+  #info li p {
+    font-family: "MissionGothic-Light";
+    color: black;
+    font-size: 1em;  /* 16 px*/
+    font-weight: 600;
+    margin: 0 0 0 5%;
+    line-height: 0;
+  }
 
 /* -----------------------
    audio gallery
    ----------------------- */
 #gallery {
-  margin: 0;
-  padding: 0;
   list-style: none;
-	display: block;
 }
 
 #gallery li {
   float: left;
-  width: 22.5%;
-  margin: 5%;
+  width: 270px;
+  margin: 10px;
   background-color: white;
   color: black;
 	border-radius: 5%;
@@ -113,8 +106,8 @@ nav li {
   --------------- */ 
 
 #pButtonNuNormol {
-  height:90px; 
-  width: 90px;
+  height:5.625em;  /* 90 px */
+  width: 5.625em; /* 90 px */
   border: none;
   background-size: 50%;
   background-repeat: no-repeat;
@@ -176,17 +169,6 @@ nav li {
 /* -----------------------
    footer 
    ----------------------- */
-
-h1 {
-	font-family: "MissionGothic-BlackItalic";
-	color: white;
-	font-size: 8.25em;
-	float: right;
-	margin-right: 20%;
-	margin-top: 0;
-	margin-bottom: auto;
-  text-shadow: -1px -1px 0 #000,
-}
 
 /* -----------------------
    links

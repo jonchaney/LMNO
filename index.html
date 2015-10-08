@@ -5,10 +5,18 @@
 	<title>LMNO</title>
 	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" href="css/main.css">
-	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<meta name="viewport" content="width=device-width" />
 </head>
 <body>
 	<header>
+		<div class="title">
+			<h1>LMNO Recordings</h1>
+		</div>
+		<nav id="info">
+			<li>
+				<p><a href="mailto:lmno.records@gmail.com">contact</a></p>
+			</li>
+		</nav>
 	</header>
 		<section>
 			<div class="main">
@@ -16,7 +24,7 @@
 					<li>
 						<img src="img/nunormol.png">
 						<button id="pButtonNuNormol" class="playNuNormol" onclick="playAudioNuNormol('NuNormol');"></button>
-						<p>Song: Fire Me</p>
+						<p>Song: Flirt/Homerun</p>
 						<p>Artist: <a href="http://www.nunormol.bandcamp.com">Nu Normol</a></p>
 						<p>SF/OAK</p>
 							<audio id="NuNormol">
@@ -36,7 +44,7 @@
 					<li>
 						<img src="img/kisscam.png">
 						<button id="pButtonKissCam" class="playKissCam" onclick="playAudioKissCam('KissCam');"></button>
-						<p>Hey Gene</p>
+						<p>Song: Hey Gene</p>
 						<p>Artist: <a href="http://kisscam.bandcamp.com/releases">Kiss Cam</a></p>
 						<p>San Francisco</p>
 							<audio id="KissCam">
@@ -44,12 +52,9 @@
 								</audio>							
 					</li>
 				</ul>
-			 </div>  
+			 </div>
 		 </section>
 	<footer>
-		<div class="title">
-			<h1>LMNO Recordings</h1>
-		</div>
 	</footer>
 <script src="js/scripts.js"></script>
 <script>
