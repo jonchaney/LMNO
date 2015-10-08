@@ -24,8 +24,8 @@ var stopMusic = function () {
 	if (music.play) {
 		music.pause();
 		music.load();
-		pButtonSlowCrawl.className = "";
-		pButtonSlowCrawl.className = "playSlowCrawl";
+		pButtonKissCam.className = "";
+		pButtonKissCam.className = "playKissCam";
 	}
 };
   
