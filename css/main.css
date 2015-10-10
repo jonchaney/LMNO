@@ -1,7 +1,19 @@
 /*----------------------------------------------
   media query
-  --------------------------------------------
+  -------------------------------------------- */
+/*
+    media query for h1:
+      centered when mobile, left align when big
 
+    media player:
+      center it in mobile
+
+    bubble menu:
+      what
+      who
+      where
+      why
+*/
 /*----------------------------------------------
   web fonts
   --------------------------------------------*/
@@ -47,12 +59,19 @@ img {
    header 
    ----------------------- */
 
+   /*
+      spacing 
+   */
+
    h1 {
     font-family: "MissionGothic-BlackItalic";
     color: white;
-    font-size: 3.750em;
+    letter-spacing: 2.5px;
+    line-height: 100%;
+    font-size: 120px; /* 70 px */
     margin: 2.5% 0 0 5%;
-    text-shadow: -1px -1px 0 #000,
+    text-shadow: -1.5px 0px 0 purple;
+    text-align: left;
 }
 
 /* --------------
@@ -84,7 +103,7 @@ img {
 #gallery li {
   float: left;
   width: 270px;
-  margin: 10px;
+  margin: 45px 10px 10px 10px;
   background-color: white;
   color: black;
 	border-radius: 5%;
