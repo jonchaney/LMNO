@@ -27,6 +27,13 @@ var stopMusic = function () {
 		pButtonKissCam.className = "";
 		pButtonKissCam.className = "playKissCam";
 	}
+	music = document.getElementById("HazelsWart");
+	if (music.play) {
+		music.pause();
+		music.load();
+		pButtonHazelsWart.className = "";
+		pButtonHazelsWart.className = "playHazelsWart";
+	}
 };
   
 // play Nu Normol track
@@ -71,6 +78,21 @@ var playAudioKissCam = function (song) {
 		music.pause();
 		pButtonKissCam.className = "";
 		pButtonKissCam.className = "playKissCam";
+	}
+};
+
+// play Hazel's Wart Track
+var playAudioHazelsWart = function (song) {
+  var music = document.getElementById(song);
+	if (music.paused) {
+		stopMusic();
+		music.play();
+		pButtonHazelsWart.className = "";
+		pButtonHazelsWart.className = "pauseHazelsWart";
+	} else {
+		music.pause();
+		pButtonHazelsWart.className = "";
+		pButtonHazelsWart.className = "playHazelsWart";
 	}
 };
 

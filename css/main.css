@@ -7,12 +7,16 @@
 
     media player:
       center it in mobile
+      have list start underneath the r in recording
+      menu is aligned on the left and the site scrolls L/R
 
-    bubble menu:
+    menu:
       what
       who
       where
       why
+
+
 */
 /*----------------------------------------------
   web fonts
@@ -160,6 +164,18 @@ img {
   margin-right: 5%;
 }
 
+#pButtonHazelsWart {
+  height:90px; 
+  width: 90px;
+  border: none;
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+  outline: none;
+  float: right;
+  margin-right: 5%;
+}
+
 .playNuNormol {
   background: url(../img/play.png);
 }
@@ -181,6 +197,14 @@ img {
 }
 
 .pauseKissCam {
+  background: url(../img/pause.png);
+}
+
+.playHazelsWart {
+  background: url(../img/play.png);
+}
+
+.pauseHazelsWart {
   background: url(../img/pause.png);
 }
 
